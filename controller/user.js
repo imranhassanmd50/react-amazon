@@ -1,5 +1,5 @@
 const fs = require('fs');
-const data = JSON.parse(fs.readFileSync('product.json'))
+const data = JSON.parse(fs.readFileSync('../product.json'))
 const userData = data.user
 
 exports.createUser = (req,res) =>{
