@@ -21,7 +21,7 @@ async function main() {
 
 
 const productRouter = require('./routes/product')
-const userRouter = require('./routes/user')
+// const userRouter = require('./routes/user')
 
 console.log(process.env.DB_PASSWORD);
 // body-parser
